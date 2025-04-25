@@ -86,7 +86,7 @@ python train2.py
 **Best threshold**: 0.01 
 
 ### step5：
-將model1、model2 id 填入對應位置，執行ensemble.py
+將model1、model2 id 填入CFG，執行ensemble.py
 ```python
 class CFG:
     model1 = [int]  # 填入model1 id
