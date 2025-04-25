@@ -99,3 +99,13 @@ python ensemble.py
 執行成功後，會將model1與model2結果ensemble並儲存於submission資料夾內，檔名為{model1 id}_{model2 id}_ensemble.csv。  
 
 **ensemble結果應在public中預測出167個正樣本，在private中預測出164個正樣本**
+
+### other：
+find_importance_feature.py 用於列出重要特徵，並儲存於importance資料夾內
+```python
+class CFG:
+    exp_id = 16  # 填入model id
+    importance_type = "gain"  # weight or gain
+```
+
+
