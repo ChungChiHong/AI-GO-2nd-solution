@@ -101,11 +101,11 @@ python ensemble.py
 **ensemble結果應在public中預測出167個正樣本，在private中預測出164個正樣本**
 
 ### other：
-find_importance_feature.py 用於列出重要特徵，並儲存於importance資料夾內
+find_important_feature.py 用於列出重要特徵，並儲存於importance資料夾內
 ```python
 class CFG:
     exp_id = 16  # 填入model id
-    importance_type = "gain"  # weight or gain
+    important_type = "gain"  # weight or gain
 ```
 
 
